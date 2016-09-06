@@ -42,7 +42,7 @@ $(document).ready(function(){
 
 		}
 
-		// ancor($('#choice'), $('.choice'));
+		ancor($('#aboutMe'), $('.aboutMe'));
 		// ancor($('#feedback'), $('.feedback'));
 		// ancor($('#toPartners'), $('.toPartners'));
 		// ancor($('#ourContacts'), $('.ourContacts'));
