@@ -1,0 +1,427 @@
+/*common styles*/
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+}
+
+/*@media templates*/
+@media (max-width: 1200px) {
+	
+	
+
+}
+
+@media (max-width: 992px) {
+	
+	
+
+}
+
+@media (max-width: 768px) {
+	
+
+
+}
+
+@media (max-width: 479px) {
+	
+
+
+}
+
+/*main styles*/
+
+.container {
+	max-width: 1030px;
+}
+
+body {
+	background: #ccc;
+}
+
+/* ------------------------>>> header <<<----------------------------------------------------- */
+.header {
+	height: 80px;
+	background: #fff;
+}
+
+.header__data {
+	float: left;
+	margin: 14px 0 0;
+}
+
+.header__myName {
+	font-size: 20px;
+	line-height: 22px;
+	font-family: "RobotoRegular";
+	font-style: normal;
+	font-weight: normal;
+	margin: 0 0 10px;
+}
+
+.header__myProf {
+	font-size: 15px;
+	line-height: 17px;
+	font-family: "RobotoLight";
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+.header__phoneOrder {
+	float: right;
+	margin: 23px 0 0;
+}
+
+.glyphicon.glyphicon-menu-hamburger {
+	display: none;
+}
+
+
+
+.header__nav {
+	margin: 22px 0 0;
+	float: right;
+}
+
+.header__navList:after {
+	display: table;
+	content: "";
+	clear: both;
+}
+
+.header__navItem {
+	float: left;
+}
+
+.header__navLink {
+	display: block;
+	font-family: 'latoregular';
+	font-size: 15px;
+	line-height: 16px;
+	color: #000;
+	padding: 10px 23px;
+
+	-webkit-transition: all .6s ease 0s;
+	-moz-transition: all .6s ease 0s;
+	-o-transition: all .6s ease 0s;
+	transition: all .6s ease 0s;
+}
+
+@media ( max-width: 768px ) {
+
+	.header__navList {
+		display: none;
+	}
+
+	.glyphicon.glyphicon-menu-hamburger {
+		display: block;
+		font-size: 30px;
+		color: #3F3333;
+		position: absolute;
+		right: 0;
+		top: 50%;
+	}
+
+	.glyphicon.glyphicon-menu-hamburger:hover {
+		cursor: pointer;
+	}
+
+	.header__phoneOrder {
+		position: relative;
+		padding-right: 50px;
+	}
+
+	.header__navList {
+		position: absolute;
+		top: 100px;
+		left: 0;
+		right: 0;
+		z-index: 999;
+	}
+
+	.header__navItem {
+		float: none;
+	}
+
+	.header__navLink {
+		text-align: center;
+		background: #000;
+		border-bottom: 1px solid #fff;
+		color: #fff;
+		opacity: .8;
+
+		-webkit-transition: all .6s ease 0s;
+		-moz-transition: all .6s ease 0s;
+		-o-transition: all .6s ease 0s;
+		transition: all .6s ease 0s;
+	}
+
+	.header__navLink:hover {
+		color: #fff;
+		background: #2e2b2e;
+	}
+
+
+}
+
+@media ( max-width: 360px ) {
+
+	.header__link {
+		float: none;
+		text-align: center;
+	}
+
+	.header__phoneOrder {
+		float: none;
+	}
+
+}
+
+/* ------------------------>>> header End <<<------------------------------------------------- */
+
+/* ------------------------>>> profession <<<----------------------------------------------------- */
+.profession {
+	padding: 200px 0;
+	text-align: center;
+	color: #3F3333;
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 32px;
+	font-family: "RobotoBold";
+	font-style: normal;
+	font-weight: normal;
+
+	background: #000936;
+	background: -moz-linear-gradient(top,  #000936 0%, #6c90c9 100%);
+	background: -webkit-linear-gradient(top,  #000936 0%,#6c90c9 100%);
+	background: linear-gradient(to bottom,  #000936 0%,#6c90c9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000936', endColorstr='#6c90c9',GradientType=0 );
+	background-image: url(../img/ComputerScience.jpg);
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.profession__mainTitle {
+	color: #003446;
+}
+
+@media ( max-width: 992px ) {
+
+	.profession {
+		font-size: 25px;
+		line-height: 27px;
+	}
+
+}
+
+@media ( max-width: 768px ) {
+
+	.profession {
+		font-size: 20px;
+		line-height: 22px;
+	}
+
+}
+
+
+/* ------------------------>>> profession End <<<------------------------------------------------- */
+
+/* ------------------------>>> aboutMe <<<----------------------------------------------------- */
+.aboutMe {
+	padding: 30px 0;
+
+	background: #ebf9ff;
+	background: -moz-linear-gradient(top,  #ebf9ff 0%, #ffffff 100%);
+	background: -webkit-linear-gradient(top,  #ebf9ff 0%,#ffffff 100%);
+	background: linear-gradient(to bottom,  #ebf9ff 0%,#ffffff 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf9ff', endColorstr='#ffffff',GradientType=0 );
+
+
+
+}
+
+.aboutMe__title {
+	font-family: "robotoblack";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 37px;
+	text-align: center;
+
+	margin: 0 0 30px;
+}
+
+.aboutMe__item {
+	margin-bottom: 20px;
+}
+
+.aboutMe__itemHeader {
+	text-align: center;
+}
+
+.aboutMe__img {
+	width: 100px;
+	height: 100px;
+	display: inline-block;
+
+	-webkit-transition: all .6s ease 0s;
+	-moz-transition: all .6s ease 0s;
+	-o-transition: all .6s ease 0s;
+	transition: all .6s ease 0s;
+
+	margin: 0 0 20px;
+}
+
+.aboutMe__img:hover {
+	-webkit-transform: scale(1.1, 1.1);
+	-moz-transform: scale(1.1, 1.1);
+	-o-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+}
+
+.aboutMe__itemFooter {
+	text-align: center;
+	min-height: 55px;
+}
+
+.aboutMe__subject {
+	font-family: "RobotoBold";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 20px;
+
+	margin: 0 0 10px;
+}
+
+.aboutMe__skill {
+	font-family: "RobotoLight";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+@media ( max-width: 479px ) {
+
+	.aboutMe__innerItem {
+		width: 100%;
+	}
+
+}
+
+
+/* ------------------------>>> aboutMe End <<<------------------------------------------------- */
+
+
+/* ------------------------>>> myWorks <<<----------------------------------------------------- */
+.myWorks {
+	padding: 30px 0;
+
+	background: #000936;
+	background: -moz-linear-gradient(top,  #000936 0%, #6c90c9 100%);
+	background: -webkit-linear-gradient(top,  #000936 0%,#6c90c9 100%);
+	background: linear-gradient(to bottom,  #000936 0%,#6c90c9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000936', endColorstr='#6c90c9',GradientType=0 );
+}
+
+.myWorks__title {
+	font-family: "robotoblack";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 35px;
+	line-height: 37px;
+	text-align: center;
+	color: #fafafa;
+
+	margin: 0 0 30px;
+}
+
+.myWorks__item {
+	margin-bottom: 20px;
+}
+
+.myWorks__headerLink {
+	display: block;
+	position: relative;
+	height: 100px;
+}
+
+.myWorks__img {
+	width: 100px;
+	height: 100px;
+	display: block;
+	background: #fff;
+	position: absolute;
+	left: 50%;
+	margin-left: -50px;
+
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-o-border-radius: 50px;
+	border-radius: 50px;
+
+	-webkit-transition: all .6s ease 0s;
+	-moz-transition: all .6s ease 0s;
+	-o-transition: all .6s ease 0s;
+	transition: all .6s ease 0s;
+
+	margin-bottom: 20px;
+}
+
+.myWorks__img:hover {
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	-o-border-radius: 0;
+	border-radius: 0;
+	-webkit-transform: scale(1.1, 1.1);
+	-moz-transform: scale(1.1, 1.1);
+	-o-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+	width: 100%;
+	height: auto;
+	left: 0;
+	margin-left: 0;
+	z-index: 100;
+}
+
+.myWorks__footer {
+	text-align: center;
+}
+
+.myWorks__footerLink {
+	font-family: "RobotoRegular";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 22px;
+	color: #fff;
+}
+
+.myWorks__footerLink:hover {
+	color: #fff;
+}
+
+.myWorks__description {
+	font-family: "RobotoLight";
+	font-style: normal;
+	font-weight: normal;
+	color: #fff;
+
+	margin: 0 0 40px;
+}
+
+
+/* ------------------------>>> myWorks End <<<------------------------------------------------- */
+
+
+
+
