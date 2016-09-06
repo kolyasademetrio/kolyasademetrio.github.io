@@ -43,7 +43,7 @@ $(document).ready(function(){
 		}
 
 		ancor($('#aboutMe'), $('.aboutMe'));
-		// ancor($('#feedback'), $('.feedback'));
+		ancor($('#myWorks'), $('.myWorks'));
 		// ancor($('#toPartners'), $('.toPartners'));
 		// ancor($('#ourContacts'), $('.ourContacts'));
 	
