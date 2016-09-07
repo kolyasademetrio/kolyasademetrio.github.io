@@ -231,6 +231,15 @@ body {
 
 }
 
+@media ( max-width: 479px ) {
+
+	.profession {
+		font-size: 18px;
+		line-height: 23px;
+	}
+
+}
+
 
 /* ------------------------>>> profession End <<<------------------------------------------------- */
 
