@@ -211,6 +211,10 @@ body {
 
 .profession__mainTitle {
 	color: #003446;
+	-webkit-text-shadow: 0 0 10px #fff;
+	-moz-text-shadow: 0 0 10px #fff;
+	-o-text-shadow: 0 0 10px #fff;
+	text-shadow: 0 0 10px #fff;
 }
 
 @media ( max-width: 992px ) {
@@ -354,27 +358,23 @@ body {
 	text-align: center;
 	color: #fafafa;
 
-	margin: 0 0 30px;
+	margin: 0 0 50px;
 }
 
-.myWorks__item {
-	margin-bottom: 20px;
+.myWorks__innerItem {
+	margin-bottom: 40px;
 }
 
 .myWorks__headerLink {
 	display: block;
-	position: relative;
-	height: 100px;
+	text-align: center;
 }
 
 .myWorks__img {
 	width: 100px;
 	height: 100px;
-	display: block;
+	display: inline-block;
 	background: #fff;
-	position: absolute;
-	left: 50%;
-	margin-left: -50px;
 
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
@@ -427,8 +427,14 @@ body {
 	font-style: normal;
 	font-weight: normal;
 	color: #fff;
+}
 
-	margin: 0 0 40px;
+@media ( max-width: 479px ) {
+
+	.myWorks__innerItem {
+		width: 100%;
+	}
+
 }
 
 
