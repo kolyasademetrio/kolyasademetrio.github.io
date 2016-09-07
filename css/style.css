@@ -383,6 +383,8 @@ body {
 	text-align: center;
 	position: relative;
 	height: 100px;
+
+	margin: 0 0 20px;
 }
 
 .myWorks__img {
@@ -404,8 +406,6 @@ body {
 	-moz-transition: all .6s ease 0s;
 	-o-transition: all .6s ease 0s;
 	transition: all .6s ease 0s;
-
-	margin-bottom: 20px;
 }
 
 .myWorks__img:hover {
