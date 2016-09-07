@@ -236,6 +236,9 @@ body {
 	.profession {
 		font-size: 16px !important;
 		line-height: 23px !important;
+		background-image: none;
+		background-color: #DCECF9;
+		padding: 100px 0;
 	}
 
 }
