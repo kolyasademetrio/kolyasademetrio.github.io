@@ -381,6 +381,8 @@ body {
 .myWorks__headerLink {
 	display: block;
 	text-align: center;
+	position: relative;
+	height: 100px;
 }
 
 .myWorks__img {
@@ -388,6 +390,10 @@ body {
 	height: 100px;
 	display: inline-block;
 	background: #fff;
+
+	position: absolute;
+	left: 50%;
+	margin-left: -50px;
 
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
