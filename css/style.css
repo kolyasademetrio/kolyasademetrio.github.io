@@ -76,7 +76,7 @@ body {
 
 .header__navLink {
 	display: block;
-	font-family: "RobotoRegular";
+	font-family: "RobotoRegular", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
@@ -170,7 +170,7 @@ body {
 	text-transform: uppercase;
 	font-size: 30px;
 	line-height: 32px;
-	font-family: "RobotoBold";
+	font-family: "RobotoBold", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 
@@ -250,7 +250,7 @@ body {
 }
 
 .aboutMe__title {
-	font-family: "robotoblack";
+	font-family: "robotoblack", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 35px;
@@ -294,7 +294,7 @@ body {
 }
 
 .aboutMe__subject {
-	font-family: "RobotoBold";
+	font-family: "RobotoBold", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 18px;
@@ -304,7 +304,7 @@ body {
 }
 
 .aboutMe__skill {
-	font-family: "RobotoLight";
+	font-family: "RobotoLight", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 16px;
@@ -333,7 +333,7 @@ body {
 }
 
 .myWorks__title {
-	font-family: "robotoblack";
+	font-family: "robotoblack", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 35px;
@@ -399,7 +399,7 @@ body {
 }
 
 .myWorks__footerLink {
-	font-family: "RobotoRegular";
+	font-family: "RobotoRegular", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
@@ -412,7 +412,7 @@ body {
 }
 
 .myWorks__description {
-	font-family: "RobotoLight";
+	font-family: "RobotoLight", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	color: #fff;
@@ -443,7 +443,7 @@ body {
 .footer__myName {
 	font-size: 20px;
 	line-height: 22px;
-	font-family: "RobotoRegular";
+	font-family: "RobotoRegular", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	margin: 0 0 10px;
@@ -452,7 +452,7 @@ body {
 .footer__myProf {
 	font-size: 15px;
 	line-height: 17px;
-	font-family: "RobotoLight";
+	font-family: "RobotoLight", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 }
@@ -485,7 +485,7 @@ body {
 
 .footer__navLink {
 	display: block;
-	font-family: "RobotoRegular";
+	font-family: "RobotoRegular", sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 15px;
