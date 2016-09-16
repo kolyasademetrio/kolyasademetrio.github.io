@@ -76,7 +76,9 @@ body {
 
 .header__navLink {
 	display: block;
-	font-family: 'latoregular';
+	font-family: "RobotoRegular";
+	font-style: normal;
+	font-weight: normal;
 	font-size: 15px;
 	line-height: 16px;
 	color: #000;
@@ -483,7 +485,9 @@ body {
 
 .footer__navLink {
 	display: block;
-	font-family: 'latoregular';
+	font-family: "RobotoRegular";
+	font-style: normal;
+	font-weight: normal;
 	font-size: 15px;
 	line-height: 16px;
 	color: #000;
