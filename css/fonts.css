@@ -1,10 +1,10 @@
 /* font-family: "RobotoRegular"; */
 @font-face {
     font-family: "RobotoRegular";
-    src: url("https://kolyasademetrio.github.io/fonts/roboto/RobotoRegular/RobotoRegular.eot");
-    src: url("https://kolyasademetrio.github.io/fonts/roboto/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
-         url("https://kolyasademetrio.github.io/fonts/roboto/RobotoRegular/RobotoRegular.woff") format("woff"),
-         url("https://kolyasademetrio.github.io/fonts/roboto/RobotoRegular/RobotoRegular.ttf") format("truetype");
+    src: url("../fonts/roboto/RobotoRegular/RobotoRegular.eot");
+    src: url("../fonts/roboto/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+         url("../fonts/roboto/RobotoRegular/RobotoRegular.woff") format("woff"),
+         url("../fonts/roboto/RobotoRegular/RobotoRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
@@ -514,99 +514,36 @@
 /* ------------------------>>> merriweather <<<----------------------------------------------------- */
 
 @font-face {
-    font-family: 'merriweatherregular';
-    src: url('../fonts/merriweather/merriweather-regular/merriweather-regular.eot');
-    src: url('../fonts/merriweather/merriweather-regular/merriweather-regular.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/merriweather/merriweather-regular/merriweather-regular.woff2') format('woff2'),
-         url('../fonts/merriweather/merriweather-regular/merriweather-regular.woff') format('woff'),
-         url('../fonts/merriweather/merriweather-regular/merriweather-regular.ttf') format('truetype'),
-         url('../fonts/merriweather/merriweather-regular/merriweather-regular.svg#merriweather-regular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'merriweatherblack';
-    src: url('../fonts/merriweather/merriweather-black/merriweather-black.eot');
-    src: url('../fonts/merriweather/merriweather-black/merriweather-black.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/merriweather/merriweather-black/merriweather-black.woff2') format('woff2'),
-         url('../fonts/merriweather/merriweather-black/merriweather-black.woff') format('woff'),
-         url('../fonts/merriweather/merriweather-black/merriweather-black.ttf') format('truetype'),
-         url('../fonts/merriweather/merriweather-black/merriweather-black.svg#merriweather-black') format('svg');
+    src: url('../fonts/merriweather/merriweatherBlack/merriweather-black.eot');
+    src: url('../fonts/merriweather/merriweatherBlack/merriweather-black.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/merriweather/merriweatherBlack/merriweather-black.woff2') format('woff2'),
+         url('../fonts/merriweather/merriweatherBlack/merriweather-black.woff') format('woff'),
+         url('../fonts/merriweather/merriweatherBlack/merriweather-black.ttf') format('truetype'),
+         url('../fonts/merriweather/merriweatherBlack/merriweather-black.svg#merriweather-regular') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 
-@font-face {
-    font-family: 'merriweatherblackital';
-    src: url('../fonts/merriweather/merriweather-blackitalic/merriweather-blackitalic.eot');
-    src: url('../fonts/merriweather/merriweather-blackitalic/merriweather-blackitalic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/merriweather/merriweather-blackitalic/merriweather-blackitalic.woff2') format('woff2'),
-         url('../fonts/merriweather/merriweather-blackitalic/merriweather-blackitalic.woff') format('woff'),
-         url('../fonts/merriweather/merriweather-blackitalic/merriweather-blackitalic.ttf') format('truetype'),
-         url('../fonts/merriweather/merriweather-blackitalic/merriweather-blackitalic.svg#merriweather-blackitalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: 'merriweatherbold';
-    src: url('../fonts/merriweather/merriweather-bold/merriweather-bold.eot');
-    src: url('../fonts/merriweather/merriweather-bold/merriweather-bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/merriweather/merriweather-bold/merriweather-bold.woff2') format('woff2'),
-         url('../fonts/merriweather/merriweather-bold/merriweather-bold.woff') format('woff'),
-         url('../fonts/merriweather/merriweather-bold/merriweather-bold.ttf') format('truetype'),
-         url('../fonts/merriweather/merriweather-bold/merriweather-bold.svg#merriweather-bold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'merriweatherboldital';
-    src: url('../fonts/merriweather/merriweather-bolditalic/merriweather-bolditalic.eot');
-    src: url('../fonts/merriweather/merriweather-bolditalic/merriweather-bolditalic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/merriweather/merriweather-bolditalic/merriweather-bolditalic.woff2') format('woff2'),
-         url('../fonts/merriweather/merriweather-bolditalic/merriweather-bolditalic.woff') format('woff'),
-         url('../fonts/merriweather/merriweather-bolditalic/merriweather-bolditalic.ttf') format('truetype'),
-         url('../fonts/merriweather/merriweather-bolditalic/merriweather-bolditalic.svg#merriweather-bolditalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'merriweatherital';
-    src: url('../fonts/merriweather/merriweather-italic/merriweather-italic.eot');
-    src: url('../fonts/merriweather/merriweather-italic/merriweather-italic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/merriweather/merriweather-italic/merriweather-italic.woff2') format('woff2'),
-         url('../fonts/merriweather/merriweather-italic/merriweather-italic.woff') format('woff'),
-         url('../fonts/merriweather/merriweather-italic/merriweather-italic.ttf') format('truetype'),
-         url('../fonts/merriweather/merriweather-italic/merriweather-italic.svg#merriweather-italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'merriweatherlight';
-    src: url('../fonts/merriweather/merriweather-light/merriweather-light.eot');
-    src: url('../fonts/merriweather/merriweather-light/merriweather-light.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/merriweather/merriweather-light/merriweather-light.woff2') format('woff2'),
-         url('../fonts/merriweather/merriweather-light/merriweather-light.woff') format('woff'),
-         url('../fonts/merriweather/merriweather-light/merriweather-light.ttf') format('truetype'),
-         url('../fonts/merriweather/merriweather-light/merriweather-light.svg#merriweather-light') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'merriweatherlightital';
-    src: url('../fonts/merriweather/merriweather-lightitalic/merriweather-lightitalic.eot');
-    src: url('../fonts/merriweather/merriweather-lightitalic/merriweather-lightitalic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/merriweather/merriweather-lightitalic/merriweather-lightitalic.woff2') format('woff2'),
-         url('../fonts/merriweather/merriweather-lightitalic/merriweather-lightitalic.woff') format('woff'),
-         url('../fonts/merriweather/merriweather-lightitalic/merriweather-lightitalic.ttf') format('truetype'),
-         url('../fonts/merriweather/merriweather-lightitalic/merriweather-lightitalic.svg#merriweather-lightitalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
 /* ------------------------>>> merriweather End <<<------------------------------------------------- */
+
+
+/* ------------------------>>> ubuntu <<<----------------------------------------------------- */
+
+@font-face {
+    font-family: 'ubuntulight';
+    src: url('../fonts/ubuntu/ubuntulight/ubuntulight.eot');
+    src: url('../fonts/ubuntu/ubuntulight/ubuntulight.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ubuntu/ubuntulight/ubuntulight.woff2') format('woff2'),
+         url('../fonts/ubuntu/ubuntulight/ubuntulight.woff') format('woff'),
+         url('../fonts/ubuntu/ubuntulight/ubuntulight.ttf') format('truetype'),
+         url('../fonts/ubuntu/ubuntulight/ubuntulight.svg#ubuntulight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ------------------------>>> ubuntu End <<<------------------------------------------------- */
