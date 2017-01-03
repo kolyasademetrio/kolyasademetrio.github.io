@@ -1,10 +1,10 @@
 /* font-family: "RobotoRegular"; */
 @font-face {
     font-family: "RobotoRegular";
-    src: url("../fonts/roboto/RobotoRegular/RobotoRegular.eot");
-    src: url("../fonts/roboto/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
-         url("../fonts/roboto/RobotoRegular/RobotoRegular.woff") format("woff"),
-         url("../fonts/roboto/RobotoRegular/RobotoRegular.ttf") format("truetype");
+    src: url("https://kolyasademetrio.github.io/fonts/roboto/RobotoRegular/RobotoRegular.eot");
+    src: url("https://kolyasademetrio.github.io/fonts/roboto/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+         url("https://kolyasademetrio.github.io/fonts/roboto/RobotoRegular/RobotoRegular.woff") format("woff"),
+         url("https://kolyasademetrio.github.io/fonts/roboto/RobotoRegular/RobotoRegular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
