@@ -33,7 +33,7 @@ $(document).ready(function(){
 		function ancor (ancor, goal) {
 
 			$(ancor).on('click', function(e){
-			  $('html,body').stop().animate({ scrollTop: $(goal).offset().top }, 2000);
+			  $('html,body').stop().animate({ scrollTop: $(goal).offset().top - 80 }, 2000);
 			  e.preventDefault();
 			});
 
@@ -41,7 +41,7 @@ $(document).ready(function(){
 
 		ancor($('#aboutMe'), $('.aboutMe'));
 		ancor($('#myWorks'), $('.myWorks'));
-		ancor($('#ourContacts'), $('.ourContacts'));
+		ancor($('#myContacts'), $('.myContacts'));
 	/*--------------------------------- функция для якоря Конец -------------------------*/
 
 });

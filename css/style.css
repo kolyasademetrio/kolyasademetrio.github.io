@@ -16,12 +16,20 @@ h1, h2, h3, h4, h5, h6, p {
 
 body {
 	background: #ccc;
+	border-top: 1px solid #5A84BC;
 }
 
 /* ------------------------>>> header <<<----------------------------------------------------- */
 .header {
 	height: 80px;
-	background: #fff;
+	background: #5A84BC;
+	border-bottom: 3px solid #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10;
+	// margin-top: -1px;
 }
 
 .header__data {
@@ -35,6 +43,7 @@ body {
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	font-weight: 400;
+	color: #fff;
 	margin: 0 0 10px;
 }
 
@@ -44,6 +53,7 @@ body {
 	font-family: "Roboto", sans-serif;
 	font-style: normal;
 	font-weight: 300;
+	color: #fff;
 }
 
 
@@ -80,13 +90,18 @@ body {
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 16px;
-	color: #000;
+	color: #fff;
 	padding: 10px 23px;
 
 	-webkit-transition: all .6s ease 0s;
 	-moz-transition: all .6s ease 0s;
 	-o-transition: all .6s ease 0s;
 	transition: all .6s ease 0s;
+}
+
+.header__navLink:hover,
+.header__navLink:focus {
+	color: #fff;
 }
 
 @media ( max-width: 768px ) {
@@ -163,6 +178,7 @@ body {
 
 /* ------------------------>>> profession <<<----------------------------------------------------- */
 .profession {
+	margin: 80px 0 0;
 	padding: 200px 0;
 	text-align: center;
 	color: #3F3333;
@@ -178,18 +194,14 @@ body {
 	background: -webkit-linear-gradient(top,  #000936 0%,#6c90c9 100%);
 	background: linear-gradient(to bottom,  #000936 0%,#6c90c9 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000936', endColorstr='#6c90c9',GradientType=0 );
-	background-image: url(../img/ComputerScience.jpg);
+	background-image: url(../img/femmespc.jpg);
 	background-position: center 0;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .profession__mainTitle {
-	color: #003446;
-	-webkit-text-shadow: 0 0 10px #fff;
-	-moz-text-shadow: 0 0 10px #fff;
-	-o-text-shadow: 0 0 10px #fff;
-	text-shadow: 0 0 10px #fff;
+	color: #fff;
 }
 
 @media ( max-width: 992px ) {
