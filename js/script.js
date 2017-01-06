@@ -43,5 +43,50 @@ $(document).ready(function(){
 		ancor($('#myWorks'), $('.myWorks'));
 		ancor($('#myContacts'), $('.myContacts'));
 	/*--------------------------------- функция для якоря Конец -------------------------*/
+	
+	/*------------------- функция для добавления класса хеадеру -------------------------*/
+	function stickyElem($ancor, $stickyElem, classToAdd) {
+		var window_top = $(window).scrollTop(),
+			$ancor = $ancor,
+			$stickyElem = $stickyElem,
+			stickyElemHeight = $stickyElem.innerHeight(),
+			div_top = $ancor.offset().top - stickyElemHeight;
 
+		if (window_top > div_top) {
+			$stickyElem.addClass(classToAdd);
+		} else {
+			$stickyElem.removeClass(classToAdd);
+		}
+
+	}
+
+	$(window).scroll(function(){
+		stickyElem($('.profession__mainTitle'), $('.header'), 'headerColorBrown');
+	});
+
+	stickyElem($('.profession__mainTitle'), $('.header'), 'headerColorBrown');
+	/*------------------------- функция для добавления класса хеадеру Конец -------------------------*/
+
+
+	/*----------------------------- функция для добавления класса хеадеру 2 -------------------------*/
+	function visibleElem ($ancor, $elemToAddClass, classToAdd) {
+		var docViewTop = $(window).scrollTop(),
+		    docViewBottom = docViewTop + $(window).height(),
+		    $ancor = $ancor,
+		    ancorTop = $ancor.offset().top,
+		    ancorBottom = ancorTop + $ancor.innerHeight();
+
+	    if (docViewBottom >= ancorTop) {
+	    	$elemToAddClass.addClass(classToAdd);
+	    } else {
+	    	$elemToAddClass.removeClass(classToAdd);
+	    }
+	}
+
+	$(window).scroll(function(){
+		visibleElem ($('.myWorks'), $('.header'), 'headerColorBlue');
+	});
+
+	visibleElem ($('.myWorks'), $('.header'), 'headerColorBlue');
+	/*---------------------------- функция для добавления класса хеадеру 2 Конец --------------------*/
 });
