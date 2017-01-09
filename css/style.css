@@ -19,6 +19,12 @@ body {
 	border-top: 1px solid #5A84BC;
 }
 
+.main {
+	position: relative;
+	z-index: 4;
+	margin: 0 0 80px;
+}
+
 @media ( min-width: 992px ) {
 
 	div[class$="__innerItem"]:nth-child(4n+1) {
@@ -500,6 +506,10 @@ body {
 .footer {
 	height: 80px;
 	background: #fff;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 1;
 }
 
 .footer__data {
